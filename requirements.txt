@@ -1,0 +1,43 @@
+# --- Core ML & Data Processing ---
+numpy>=1.23.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+scipy
+imblearn
+xgboost
+catboost
+
+# --- Probabilistic & Deep Learning (TFP Dependencies) ---
+tensorflow-probability>=0.23.0
+typing-extensions>=4.10.0
+absl-py
+cloudpickle>=1.3
+gast>=0.3.2
+
+# --- Visualization ---
+matplotlib
+plotly
+seaborn
+
+# --- MLOps & Tracking ---
+evidently==0.2.8
+dill
+PyYAML
+mlflow
+dvc
+
+# --- Infrastructure & AWS ---
+boto3
+botocore
+mypy-boto3-s3
+pymongo
+from_root
+
+# --- Web API ---
+fastapi
+uvicorn
+jinja2
+python-multipart
+
+# --- Internal Package ---
+-e .

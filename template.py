@@ -26,7 +26,7 @@ list_of_files = [
     f"{project_name}/exception/__init__.py",
     f"{project_name}/exception/exception.py",
     f"{project_name}/logger/__init__.py",
-    f"{project_name}/logger/logger.py",
+    f"{project_name}/logger/logging.py",
     f"{project_name}/pipeline/__init__.py",
     f"{project_name}/pipeline/training_pipeline.py",
     f"{project_name}/pipeline/prediction_pipeline.py",
